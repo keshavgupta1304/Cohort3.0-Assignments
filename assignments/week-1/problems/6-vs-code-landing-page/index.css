@@ -22,7 +22,7 @@ h1{
 .nav-logo{
   height: 27.5px;
   width: 27.5px;
-  margin-left: 120px;
+  margin-left: 50px;
 }
 .logo{
   background-image: url("visual\ studio\ code\ logo.png");
@@ -35,7 +35,7 @@ h1{
   font-weight: bold;
 }
 .site-name{
-  font-size: 23px;
+  font-size: 20px;
   color: #e9eaeb;
 }
 .nav-name{
