@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            height: 300px;
+            display: flex;
+            justify-content: flex-start;
+            background-color: #0e0e0e;
+        }
+        .left{
+            /* background-color: red; */
+            /* width: 450px; */
+            margin-left: 150px;
+            /* margin-right: 100px; */
+        }
+        .right{
+            /* background-color: blue; */
+            margin-left: 50px;
+            width: 900px;
+        }
+        .grid2{
+            display: grid;
+            grid-template-columns: repeat(3,250px);
+            /* place-items: center; */
+            margin-top: 50px;
+        }
+        .flex{
+            display: flex;
+            width: 50px;
+        }
+        span{
+            padding-top: 15px;
+            color: #9ba3b4;
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body style="background-color: #0e0e0e;">
+    <div class="container">
+        <div class="left">
+            <div>
+                <h2 style="color: #e9eaeb;margin-top: 40px;font-size: 35px;">Code in any language</h2>
+            </div>
+            <div>
+                <span>VS Code supports almost every major<br/> programming language Several ship in the box,<br/> like JavaScript, TypeScript, CSS, and HTML, but <br/>extensions for others can be found in the VS<br/> Code Marketplace.</span>
+            </div>
+        </div>
+        <div class="right">
+            <div class="grid2">
+                <div class="flex">
+                    <img src="https://code.visualstudio.com/assets/home/language-js.png" alt="" width="50px">
+                    <span>JavaScript</span>
+                </div>
+                <div class="flex">
+                    <img src="https://code.visualstudio.com/assets/home/language-ts.png" alt="" width="50px">
+                    <span style="">TypeScript</span>
+                </div>
+                <div class="flex">
+                    <img src="https://code.visualstudio.com/assets/home/language-python.png" alt="" width="50px">
+                    <span>Python</span>
+                </div>
+                <div class="flex">
+                    <img src="https://code.visualstudio.com/assets/home/language-cs.png" alt="" width="50px">
+                    <span style="">C#</span>
+                </div>
+                <div class="flex">
+                    <img src="https://code.visualstudio.com/assets/home/language-cpp.png" alt="" width="50px">
+                    <span>C++</span>
+                </div>
+                <div class="flex">
+                    <img src="https://code.visualstudio.com/assets/home/language-html.png" alt="" width="50px">
+                    <span style="">HTML</span>
+                </div>
+                <div class="flex">
+                    <img src="https://code.visualstudio.com/assets/home/language-java.png" alt="" width="50px">
+                    <span>Java</span>
+                </div>
+                <div class="flex">
+                    <img src="https://code.visualstudio.com/assets/home/language-json.png" alt="" width="50px">
+                    <span style="">JSON</span>
+                </div>
+                <div class="flex">
+                    <img src="https://code.visualstudio.com/assets/home/language-php.png" alt="" width="50px">
+                    <span>PHP</span>
+                </div>
+                <div class="flex">
+                    <img src="https://code.visualstudio.com/assets/home/language-markdown.png" alt="" width="50px">
+                    <span style="">Markdown</span>
+                </div>
+                <div class="flex">
+                    <img src="https://code.visualstudio.com/assets/home/language-powershell.png" alt="" width="50px">
+                    <span>Powershell</span>
+                </div>
+                <div class="flex">
+                    <img src="https://code.visualstudio.com/assets/home/language-yaml.png" alt="" width="50px">
+                    <span style="">YAML</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
