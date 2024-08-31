@@ -1,0 +1,14 @@
+[
+  {
+    "task": "Do web-dev assignments",
+    "done": false
+  },
+  {
+    "task": "Read the notes provided by the harkirat",
+    "done": true
+  },
+  {
+    "task": "Make a web-based wallet integrating sol and eth",
+    "done": false
+  }
+]
